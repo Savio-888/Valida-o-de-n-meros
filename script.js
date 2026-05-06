@@ -6,7 +6,6 @@ function validarNumero(){
         mensagem.style.color = "red" // muda a cor do paragrafo.
     } else { // Se o campo estiver preenchido
         numero = parseInt(numero)
-        console.log(typeof(numero))
         if(numero > 10){
             mensagem.textContent = "O número é maior que 10."
             mensagem.style.color = "green"
