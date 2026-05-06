@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!--Define o padrão de codificação de caracteres.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Torna o site responsivo ao tamanho da tela do usuário.-->
+        <title>Exemplo Exercício Desvio Condicional - Validação Número</title> <!--Define o título do site na guia do navegador.-->
+        <link rel="stylesheet" href="style.css"> <!--Adiciona um link para o arquivo css da página, afim de configurar o estilo de todas as tags.-->
+    </head>
+    <body>
+        <div class="container"> <!--Abre uma tag div com a classe container, que vai armazenar o conteudo do site.-->
+            <h1>Validação de Números</h1> <!--Abre e fecha a tag h1 (header 1), que adiciona o título "Validação de números" ao site.-->
+            <input type="number" id="numero" placeholder="Digite um número"> <!--Cria um campo usando a tag input, aonde o usuário ira digitar um número qualquer. Como o atributo type foi definido como number, o campo não vai aceitar qualquer caractere que não seja um número.-->
+            <button onclick="validarNumero()">Validar</button> <!--Cria um botão que sempre que é clicado, chama a função validarNumero() do arquivo .js-->
+            <p id="mensagem"></p> <!--Cria um paragrafo, que ira receber uma mensagem especifica a partir do código em javascript.-->
+        </div> <!--Fecha a tag div-->
+        <script src="script.js"></script> <!--Adiciona o código em javascript no site-->
+    </body>
+</html>
