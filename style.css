@@ -1,4 +1,4 @@
-body{
+body{ /*Define o estilo de todos os aspectos do site como um todo*/
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -6,20 +6,20 @@ body{
     height: 100vh;
     background-color: #f0f0f0;
 }
-.container {
+.container { /*Define o estilo de todas as tags com a classe container*/
     text-align: center;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-input {
+input { /*Define o estilo de todas as tags input do site.*/
     padding: 10px;
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-button {
+button { /*Define o estilo de todas as tags button do site.*/
     padding: 10px 20px;
     background-color: #007BFF;
     color: white;
@@ -27,10 +27,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover {
+button:hover { /*Muda a cor dos botões se o mouse estiver acima deles*/
     background-color: #0056b3;
 }
-p {
+p { /*Define o estilo do paragrafo, onde a mensagem de resultado será exibida*/
     margin-top: 20px;
     font-size: 18px;
 }
