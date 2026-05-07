@@ -4,7 +4,10 @@ body{ /*Define o estilo de todos os aspectos do site como um todo*/
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-image: url(6b58003a-cc71-4b1b-a320-c61f42fa4b61.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .container { /*Define o estilo de todas as tags com a classe container*/
     text-align: center;
