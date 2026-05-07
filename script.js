@@ -5,7 +5,7 @@ function validarNumero(){
         mensagem.textContent = "Por favor, insira um número" // Usa o textContent para mudar a mensagem exibida no site.
         mensagem.style.color = "red" // muda a cor do paragrafo.
     } else { // Se o campo estiver preenchido
-        numero = parseInt(numero)
+        numero = parseFloat(numero)
         if(numero > 10){
             mensagem.textContent = "O número é maior que 10."
             mensagem.style.color = "green"
