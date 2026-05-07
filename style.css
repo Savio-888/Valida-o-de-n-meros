@@ -24,14 +24,14 @@ input { /*Define o estilo de todas as tags input do site.*/
 }
 button { /*Define o estilo de todas as tags button do site.*/
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #808080;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 button:hover { /*Muda a cor dos botões se o mouse estiver acima deles*/
-    background-color: #0056b3;
+    background-color: #3f3f3f;
 }
 p { /*Define o estilo do paragrafo, onde a mensagem de resultado será exibida*/
     margin-top: 20px;
